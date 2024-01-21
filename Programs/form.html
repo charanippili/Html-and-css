@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body{
+        background-color: lightgreen;
+    }
+</style>
+<body>
+    <img src="images/logo.png" width="500px">
+    <hr>
+    <div>
+        <h1>Student Review form </h1>
+        <form action="form.php">
+        Name:- <input type="text" placeholder="Enter Your Name" style="border-style:solid;border-color: rgb(0, 0, 0) ;border-radius: 8px;"> <br> <br>
+        Hall Ticket No:- <input type="text" placeholder="Enter your hall ticket No" style="border-style:solid;border-color: black;border-radius: 8px;"><br>
+        <b>Choose Your Section</b> <br><br>
+        <label for="sectiona">                                                     
+        <input type="radio" value="Section A" name="section" id="sectiona" >Section A
+        </label>  
+        <label for="sectionb">
+        <input type="radio" value="Section B" name="section" id="sectionb">Section B
+        </label>
+        <label for="sectionc">
+            <input type="radio" name="section" value="Section C" id="sectionc">Section C
+        </label>
+        <br><br>
+        <b>Are Our faculty teaching you well?</b><br><br>
+        <label for="yes">
+        <input type="radio" name="option" value="yes" id="yes">YES
+        </label>
+        <label for="no">
+        <input type="radio" name="option" value="no" id="no">NO
+        </label>
+        <br><br>
+        <b>Do Our faculty have knowledge about the subject?</b><br><br>
+        <label for="yes1">
+            <input type="radio" name="option1" value="yes" id="yes1">YES
+        </label>
+        <label for="no1">
+            <input type="radio" name="option1" value="no" id="no1">NO
+        </label>
+        <br><br>
+        <b>What you feel about Our college</b><br><br>
+        <textarea name="explain" id="explain" cols="40" rows="10" placeholder="Your Opinion" style="border-style:solid; border-color:black;border-radius: 11px;">
+
+        </textarea>
+
+        </form>
+        <br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/abaOw3DSyBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</body>
+</html>

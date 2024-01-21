@@ -1,0 +1,44 @@
+body {
+    background-color:rgb(233, 233, 233);
+    background-image: url(images/Flipkart_logo.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center top;
+    background-position-y :left right;
+ 
+  }
+  #blue {
+    color: rgb(40, 71, 209);
+    font-family :  "Alkatra", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+     border-color: aqua;
+  }
+  #yellow {
+    color: yellow;
+    font-family: "Norican", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 6px;
+  }
+  #r {
+    font-size: 20px;
+    font-family: 'Podkova', serif;
+    font-weight: bold;
+  }
+  #name {
+    font-weight: bold;
+    color:rgb(216, 216, 20);
+  }
+  #phone {
+    font-weight: bold;
+    COLOR:BLUE;
+  }
+ #cc{
+    color:red;
+ }
+ #yes{
+    color:pink;
+ }
